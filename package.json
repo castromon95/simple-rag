@@ -1,0 +1,25 @@
+{
+  "name": "simple-rag",
+  "version": "1.0.0",
+  "description": "Simple RAG with langchain",
+  "license": "ISC",
+  "author": "Nicolas Castro Montana",
+  "type": "module",
+  "scripts": {
+    "start": "node app/index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.9.0",
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.63",
+    "@langchain/google-genai": "^0.2.15",
+    "@langchain/langgraph": "^0.3.8",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.30",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14"
+  }
+}
